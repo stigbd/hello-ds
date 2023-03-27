@@ -7,9 +7,9 @@ See <https://code.visualstudio.com/docs/datascience/data-science-tutorial>
 ## Setup
 
 ```bash
-pyenv virtualenv 3.10.8 jupyter    # create virtualenv named "jupyter"
-pyenv local jupyter                # set local python version
-pyenv activate jupyter             # activate virtualenv
+pyenv virtualenv 3.11.2 jupyter-python-3.11.2    # create virtualenv named "jupyter"
+pyenv local jupyter-python-3.11.2                # set local python version
+pyenv activate jupyter-python-3.11.2             # activate virtualenv
 pip install pandas jupyter seaborn scikit-learn keras tensorflow   # install packages
 ```
 
